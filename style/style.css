@@ -1,0 +1,81 @@
+  .main_conteiner{
+         width: 750px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+    border: 1px solid rgb(17, 151, 147);
+    border-radius: 30px;     
+   }
+form{
+    padding: 40px;
+    padding-left: 30px;
+}
+input{
+    padding: 8px 12px;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+}
+.date{
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-bottom: 6px;
+}
+ul{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+.information_weather{
+    text-align: center;
+    line-height: 25px;
+}
+.headline{
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;   
+}
+.information_weather_today{
+    font-size: 70px;
+}
+.temperature_day{
+    font-size: 29px;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.temperature_night{
+    color: #777777;
+}
+.place{
+     padding-top: 80px; 
+     font-family: 'Oswald', sans-serif;  
+     text-align: center;
+}
+.weather_five{
+    text-align: center;
+    margin: 25px;
+}
+.weather_five_days{
+   font-size: 22px;
+   font-family: 'Oswald', sans-serif;  
+}
+.weather_five_emoji{
+    font-size: 55px;
+}
+.celc {
+    font-size: small;
+}
+.fahrenheit{
+    font-size: small;
+
+}
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+
+

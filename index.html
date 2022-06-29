@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main_conteiner">
+    <div class="container ">
+        <header>
+            <div class="row">
+                <div class="col-6 ">
+                    <form>
+            <input type="text" placeholder="search for city or place" autocomplete="off">
+        </form>
+        <button  style="margin: 0 auto"> 
+            Current Location
+        </button>
+    </br>
+          <p class="date">29.05.2022</p>
+             <ul>
+                <li>Sunrise: 6:45</li>
+                <li>Sunset: 20:11</li>
+                </div>
+                <div class="col-3">
+                    <div class="information_weather">
+                        <section class="headline">
+                
+                <h2 class="day" id="day_today">Sunday </h2>
+                <h3 class="time" id ="time_now">10:23</h3>
+            </section>
+            <br |>
+                <p class="information_weather_today">  &#9728</p>
+                <br |>
+                 <p class="temperature_day"> <span id="temp_now"> +22</span>  <a href="#"class="celc">°C</a> </span>|<a href="#"class ="fahrenheit">°F</a>  </span> | <span class="temperature_night">+17</span> </p>
+               <br |>
+        </div>
+                </div>
+                <div class="col-3" style="padding: 0px;">
+                    <div class="place">
+            <h2 class="city" id ="city_weather">Kyiv <br />
+            Ukraine</h2>
+        </div>
+                </div>
+            </div>
+        </header>
+        <div class="weather_five">
+            <div class="row">
+    <div class="col">
+      <span class="weather_five_days"> Monday </span>
+      <br |>
+      <span class="weather_five_emoji">&#127782</span>
+      <br |>
+       <span class="weather_five_days">  23°С </span>
+    </div>
+    <div class="col">
+        <span class="weather_five_days"> Tuesday </span>
+        <br |>
+        <span class="weather_five_emoji">&#9928</span>
+        <br |>
+      <span class="weather_five_days">20°С</span>
+    </div>
+    <div class="col">
+       <span class="weather_five_days"> Wednesday</span>
+        <br |>
+       <span class="weather_five_emoji"> &#127781</span>
+        <br |>
+      <span class="weather_five_days">16°С</span>
+    </div>
+    <div class="col">
+       <span class="weather_five_days"> Thursday</span> 
+        <br |>
+       <span class="weather_five_emoji"> &#127781</span>
+        <br |>
+      <span class="weather_five_days">20°С</span>
+    </div>
+    <div class="col">
+       <span class="weather_five_days">Friday</span> 
+        <br |>
+        	<span class="weather_five_emoji">&#9728</span>
+            <br |>
+      <span class="weather_five_days">18°С</span>
+    </div>
+        </div>
+    </div>
+    </div>
+   <script src="style/java.js"></script>
+</body>
+</html>
